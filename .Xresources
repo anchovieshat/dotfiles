@@ -1,0 +1,36 @@
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+Xft.dpi: 101
+!*urxvt.reverseVideo: true
+!*urxvt.transparent: true
+*urxvt.shading: 20
+!*urxvt.font: -*-termsyn-medium-*-*-*-11-*-*-*-*-*-*-*
+!*urxvt.font: -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-*
+!*urxvt.font: xft:Terminus:pixelsize=14:antialias=false:hinting=true
+URxvt*font: xft:Termsyn:style=Regular:size=7
+URxvt*boldFont: xft:Termsyn:style=Bold:size=7
+!
+!*urxvt.font: -*-terminus-*-*-*-*-14-*-*-*-*-*-*-*
+*urxvt.urgentOnBell: true
+*urxvt.visualBell: false
+*urxvt.scrollBar: false
+*urxvt.perl-ext-common: default,url-select,clipboard,bell-command
+*urxvt.keysym.4-f: perl:url-select:select_next
+!*urxvt.underlineURLs: true
+*urxvt.url-select.underline: true
+!*urxvt.urlLauncher: chromium
+*urxvt.url-select.launcher: google-chrome-stable
+*urxvt.keysym.M-c: perl:clipboard:copy
+!*urxvt.bell-command: aplay -q /home/xales/.config/sounds/beep7.wav
+*urxvt.keysym.M-v: perl:clipboard:paste
+*urxvt.saveLines: 65535
+!*urxvt.letterSpace: 0.8
+URxvt.depth: 32
+!URxvt.background: rgba:0000/0000/0000/ccdd
+!URxvt.foreground: white
+!urxvt.color12: rgba:6666/6666/ffff/ffff
+#include ".solarized.xresources"
